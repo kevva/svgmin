@@ -1,0 +1,32 @@
+{
+  "name": "svgmin",
+  "version": "1.0.0",
+  "description": "Minify SVG files",
+  "license": "MIT",
+  "repository": "kevva/svgmin",
+  "author": {
+    "name": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "https://github.com/kevva"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "minify",
+    "svg"
+  ],
+  "dependencies": {
+    "ware": "^1.0.1",
+    "xml2js": "^0.4.4"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
