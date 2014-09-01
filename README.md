@@ -15,7 +15,7 @@ var read = require('fs').readFileSync;
 var Svgmin = require('svgmin');
 
 var svgmin = new Svgmin()
-    .src(read('foo.svg'));
+    .src(read('foo.svg', 'utf8'));
 
 svgmin.run(function (err, svg) {
     if (err) {

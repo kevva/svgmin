@@ -18,7 +18,7 @@ function Svgmin() {
 }
 
 /**
- * Get or set the source file
+ * Get or set the source string
  *
  * @param {String} str
  * @api public
@@ -81,7 +81,7 @@ Svgmin.prototype.run = function (cb) {
 };
 
 /**
- * Run a SVG object through the middleware
+ * Run object through the middleware
  *
  * @param {Object} obj
  * @param {Function} cb
@@ -93,7 +93,7 @@ Svgmin.prototype.runPlugins = function (obj, cb) {
 };
 
 /**
- * Parse SVG to JS object
+ * Parse SVG to JS
  *
  * @param {String} str
  * @param {Function} cb
@@ -119,7 +119,7 @@ Svgmin.prototype.toJs = function (str, cb) {
 };
 
 /**
- * Convert JS object to SVG
+ * Convert object to SVG
  *
  * @param {Object} obj
  * @param {Function} cb
